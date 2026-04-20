@@ -1,0 +1,27 @@
+import 'dart:ui';
+
+const Color colorPrimary = Color(0xFF6F35A5);
+const Color colorPrimaryDark = Color(0xFF6F35A5);
+const Color colorAccent = Color(0xFF6F35A5);
+const Color colorGreen = Color(0xFF37a353);
+const Color colorRed = Color(0xFFFF5050);
+const Color colorBackground = Color(0xFFF9F9F9);
+const Color colorButtonGrey = Color(0xFF292929);
+const Color colorBlack = Color(0xFF000000);
+const Color colorTextBlack = Color(0xFF2F3333);
+const Color colorLightBlack = Color(0xFFF9F9F9);
+const Color colorDisabled = Color(0xFFBEC2CE);
+const Color colorWhite = Color(0xFFFFFFFF);
+const Color colorGrey = Color(0xFF2D2D2D);
+const Color colorBorderGrey = Color(0xAEF5F1F1);
+const Color colorLightGrey = Color(0xFF7A7A7A);
+const Color colorLightBlue = Color(0xFFa5daf0);
+const Color colorGradient1 = Color(0xFF00AEEE);
+const Color colorGradient2 = Color(0xFF3DB9C7);
+const Color color = Color(0xFFF5F1F1);
+const Color colorShadow = Color(0xFF000029);
+const Color colorIconBlack = Color(0xFF2F3333);
+const Color colorDivider = Color(0xFF707070);
+const  kPrimaryColor = Color(0xFF6F35A5);
+const  Color kprimaryColor = Color(0xFF6F35A5);
+const kPrimaryLightColor = Color(0xFFF1E6FF);
