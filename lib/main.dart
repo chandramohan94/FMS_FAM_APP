@@ -1,24 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:upcl_fam_app/modules/login/bloc/login_bloc.dart';
-import 'package:upcl_fam_app/modules/login/screen/login_form.dart';
-
+import 'app/app.dart';
+import 'modules/login/cubit/login_cubit.dart';
+import 'modules/login/data/login_repository.dart';
 
 void main() {
   runApp(
-    BlocProvider(
-      create: (context) => LoginBloc(),
-      child: MyApp(),
+    MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (_) => LoginCubit(LoginRepository())),
+      ],
+      child: const MyApp(),
     ),
   );
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false, //
-      home: LoginForm(), // ✅ directly open login screen
-    );
-  }
 }
