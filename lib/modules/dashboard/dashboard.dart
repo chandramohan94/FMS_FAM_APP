@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:upcl_fam_app/modules/consumerDetails/screen/consumerbasic.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 
@@ -235,10 +234,10 @@ class _DashboardState extends State<Dashboard> {
               ElevatedButton(
                 onPressed: () {
                   // NAVIGATION ADDED HERE
-                  Navigator.push(
+                 /* Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const consumerbasic())
-                  );
+                  );*/
                   print("Navigating to Summary.dart");
                 },
                 style: ElevatedButton.styleFrom(
